@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+</head>
+<body>
+   
+    {% load static %}
+    <script type="text/babel">
+        const getMessage = () => "Hello World";
+        document.getElementById('output').innerHTML = getMessage();
+        </script>
+        <div id="output">
+
+        </div>
+</body>
+
+</html>
